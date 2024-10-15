@@ -1,0 +1,77 @@
+/* Dark mode styling */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+/* Paragraphs in headers */
+header p {
+    display: inline;
+    color: black;
+    margin: 0;
+}
+
+/* General Paragraph Styles */
+.container p {
+    color: black;
+    margin: 0;
+    text-align: left;
+}
+
+/* List Styles */
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    color: black;
+    margin-bottom: 0.5em;
+}
+
+.container ul {
+    text-align: left;
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.container li {
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+/* Style project links */
+.container a {
+    color: blue; /* Change link color to blue */
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+/* Ensure all text inside Skills and Interests sections is black */
+#skills, #skills * {
+    color: black;
+}
+
+#interests, #interests * {
+    color: black;
+}
+/* Footer Styles */
+#footer ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+#footer li {
+    color: black; /* Make text black */
+    text-align: center;
+}
